@@ -1,0 +1,57 @@
+.footer__form {
+  border: 5px solid #243448;
+  padding: 2.375rem;
+}
+.form-group {
+  background-color: #243448;
+  margin-bottom: 0.125rem;
+}
+.form-control {
+  font-family: "DIN Pro Medium";
+  font-weight: 500;
+  font-size: 0.9375rem;
+  color: #ffffff;
+  border: none;
+  background-color: #243448;
+  height: 3.4375rem;
+  padding: 0.1875rem 2.1875rem;
+  transition: all 0.5s ease;
+}
+.form-control::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+.form-control:focus {
+  background-color: #ffffff;
+}
+textarea {
+  resize: none;
+}
+.footer__form_text {
+  padding-top: 1.5625rem;
+}
+.footer__modal a {
+  display: block;
+  font-family: "DIN Pro Medium";
+  font-size: 0.875rem;
+  color: #4c89c1;
+  text-decoration: underline;
+  padding: 0.375rem 0.75rem;
+}
+.modal-dialog {
+  color: #000000;
+}
+.footer__form-button {
+  border: 3px solid #ffffff;
+  background-color: #0d1b2b;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 1.125rem 3.625rem;
+  margin-top: 0.5rem;
+}
+.footer__form-button:hover {
+  color: #ffffff;
+}
